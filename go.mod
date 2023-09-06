@@ -4,7 +4,9 @@ go 1.21.0
 
 require (
 	github.com/VictoriaMetrics/metrics v1.24.0
+	github.com/goccy/go-json v0.10.2
 	github.com/urfave/cli/v2 v2.25.7
+	golang.org/x/crypto v0.13.0
 	gopkg.in/ini.v1 v1.67.0
 )
 
@@ -15,5 +17,5 @@ require (
 	github.com/valyala/fastrand v1.1.0 // indirect
 	github.com/valyala/histogram v1.2.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
-	golang.org/x/sys v0.11.0 // indirect
+	golang.org/x/sys v0.12.0 // indirect
 )

@@ -94,3 +94,11 @@ type UserListDetail struct {
 	// 新版 RGOS 新增的属性（20230828）
 	AuthUsername string `json:"authUsername"`
 }
+
+// 获取盐值接口 | 20230906添加
+type HmacInfo struct {
+	Salt   string `json:"salt"`
+	Iter   int    `json:"iter"`
+	Digest string `json:"digest"`
+	Keylen int    `json:"keylen"`
+}

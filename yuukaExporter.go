@@ -1,6 +1,6 @@
 // 优香酱锐捷 AC Exporter ，适配 WS6xxx 系列设备 - 程序入口
 // @CreateTime : 2023/8/28 10:52
-// @LastModified : 2023/8/28 10:52
+// @LastModified : 2023/9/06 13:20
 // @Author : Luckykeeper
 // @Contact : luckykeeper@luckykeeper.site | https://github.com/luckykeeper | https://luckykeeper.site
 // @ProgramEntry: yuukaExporter.go
@@ -44,7 +44,7 @@ func YuukaExporterCLI() {
 			"\nPowered By Luckykeeper <luckykeeper@luckykeeper.site | https://luckykeeper.site>" +
 			"\n————————————————————————————————————————" +
 			"\n注意：使用前需要先填写同目录下 config.ini !",
-		Version: "1.0.0_build20230828",
+		Version: "1.0.1_build20230906",
 		Commands: []*cli.Command{
 			// 爬取数据，启动 Exporter
 			{
