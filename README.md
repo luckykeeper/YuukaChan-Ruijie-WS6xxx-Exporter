@@ -42,7 +42,9 @@ screen -x -S $screen_name -p 0 -X stuff $'\n'
 
 ```yaml
   - job_name: "yuukaExporter"
-
+ 	# 当用户量很大的时候，你可能需要延长超时时间来防止 Prometheus 拉取数据超时，并降低 AC 的压力
+ 	# scrape_interval: 5m
+    # scrape_timeout: 2m
     static_configs:
       - targets: ["<yuukaExporter的IP地址>:9002"]
 ```
